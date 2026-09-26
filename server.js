@@ -180,7 +180,7 @@ function send(res, code, obj, type) {
 }
 
 http.createServer((req, res) => {
-  const u = new URL(req.url, 'http://x');
+  const u = new URL('http://x' + (String(req.url || '/').startsWith('/') ? '' : '/') + String(req.url || '/'))   // '//x' must stay a path, not a host;
   let p = u.pathname;
   if (BASE && p.startsWith(BASE)) p = p.slice(BASE.length) || '/';
   if (req.method === 'GET' && p === '/') return send(res, 200, PAGE.replace('__MODE__', FULL ? 'full powers' : 'read-only').replace('__BASE__', BASE), 'text/html; charset=utf-8');
