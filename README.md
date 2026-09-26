@@ -63,6 +63,12 @@ The listening is done by your browser: Chrome sends the audio to Google's speech
 - It cannot see screenshots or send you files; it is a voice conversation.
 - The voice session is separate from any Claude Code session you have open elsewhere. If both change the same files at once, they can collide.
 
+## Tip
+
+Shuteye is free. If it gives your eyes a rest, you can tip the developer in USDC on Arc or Base:
+
+`0xD3d3d2F67D15592267f953CabF5eCd38635d6C10`
+
 ## Credits
 
 Made by [APEX Faucet](https://apexfaucet.xyz/arc/), which gives away free USDC for gas on Arc. MIT licence.
