@@ -65,9 +65,9 @@ The listening is done by your browser: Chrome sends the audio to Google's speech
 
 ## Tip
 
-Shuteye is free. If it gives your eyes a rest, you can tip the developer in USDC on Arc or Base:
+Shuteye is free. If it gives your eyes a rest, you can tip the project in USDC on Arc or Base:
 
-`0xD3d3d2F67D15592267f953CabF5eCd38635d6C10`
+`0xd334AB5151C624cAdA654854E2879903Dc4217eD`
 
 ## Credits
 
