@@ -17,6 +17,14 @@ Star Shuteye from a GitHub account that is at least 30 days old, and a tree with
 
 You need Node 18 or newer, a recent [Claude Code](https://docs.claude.com/en/docs/claude-code) (tested with 2.1.281) installed and logged in, and Chrome on your phone.
 
+One command, from your project folder:
+
+```bash
+npx github:apexfaucet-hub/shuteye --tunnel
+```
+
+Or clone it:
+
 ```bash
 git clone https://github.com/apexfaucet-hub/shuteye
 cd shuteye
