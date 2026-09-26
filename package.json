@@ -1,0 +1,32 @@
+{
+  "name": "shuteye",
+  "version": "0.1.0",
+  "description": "Talk to Claude Code with your eyes shut: speak on your phone, hear the answer. Read-only by default. Zero dependencies.",
+  "bin": {
+    "shuteye": "server.js"
+  },
+  "main": "server.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apexfaucet-hub/shuteye"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "voice",
+    "speech",
+    "accessibility",
+    "hands-free"
+  ],
+  "files": [
+    "server.js",
+    "page.html",
+    "deny.template.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
