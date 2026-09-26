@@ -11,7 +11,7 @@ It was built by someone who reads a screen 18 hours a day and needed his eyes ba
 
 ## Plant a tree
 
-Every GitHub star on Shuteye plants a tree with your GitHub name in [Shuteye Park](https://apexfaucet.xyz/arc/city/#park), in Arc City. The park grows with every star. Only GitHub accounts older than 30 days plant a tree, so the park stays real people.
+Star Shuteye from a GitHub account that is at least 30 days old, and a tree with your GitHub name grows in [Shuteye Park](https://apexfaucet.xyz/arc/city/#park), in Arc City. The age rule keeps the park to real people.
 
 ## Start
 
@@ -44,7 +44,7 @@ State lives in `~/.shuteye/`: the key, the pairing token, the last session id, `
 
 ## Security, honestly
 
-Whoever holds your paired phone (or the key) has your Claude Code session. The key sits in that browser's storage and is sent as a header on every call, so treat the phone like a password. Five wrong tries from one address lock that address out for an hour, and 50 wrong tries in an hour stop all guessing for an hour; your own paired phone keeps working throughout. Run Shuteye on its own address (or port): any other script on the same origin could read the key.
+Whoever holds your paired phone (or the key) has your Claude Code session. The key sits in that browser's storage and is sent as a header on every call, so treat the phone like a password. After five wrong tries from one address (or fifty in all), wrong keys are answered with "too many tries" for an hour. A right key always works, and the key is 256 random bits, so guessing it is not practical. Run Shuteye on its own address (or port): any other script on the same origin could read the key.
 
 **Read-only mode** (the default) runs Claude Code with `--restricted` and a fixed tool list (Read, Glob, Grep, WebSearch). Nothing that runs commands or code is available, your settings files cannot add tools back, and reads are confined to the project folder. It can read your project and search the web.
 
