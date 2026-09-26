@@ -1,5 +1,7 @@
 # Shuteye
 
+<img src="docs/demo.gif" alt="Shuteye on a phone: ask by voice, it says what it will change and asks, you say yes, the live page changes" width="300" align="right">
+
 **Talk to Claude Code with your eyes shut.** Tap once, speak, and the answer is read out loud. Hands-free mode listens again after every answer, so you can lie down, close your eyes and keep working.
 
 It was built by someone who reads a screen 18 hours a day and needed his eyes back. Claude's chat app has a voice mode; Claude Code on a phone does not. Shuteye is a small bridge: your phone's browser does the listening and the speaking, and Claude Code runs on your own computer with your own login.
