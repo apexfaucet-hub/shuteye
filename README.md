@@ -9,6 +9,10 @@ It was built by someone who reads a screen 18 hours a day and needed his eyes ba
 - In full-powers mode it says what it is about to change and waits for your "yes" before it does it.
 - You connect a phone with a one-time pairing link (it works once, within 15 minutes). The key itself is never printed or put in a link.
 
+## Plant a tree
+
+Every GitHub star on Shuteye plants a tree with your GitHub name in [Shuteye Park](https://apexfaucet.xyz/arc/city/#park), in Arc City. The park grows with every star. Only GitHub accounts older than 30 days plant a tree, so the park stays real people.
+
 ## Start
 
 You need Node 18 or newer, a recent [Claude Code](https://docs.claude.com/en/docs/claude-code) (tested with 2.1.281) installed and logged in, and Chrome on your phone.
